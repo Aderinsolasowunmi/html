@@ -6,15 +6,30 @@ body{
 }
 header{
     background-color: aqua;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;    
 }
 nav{
     background-color: gold;
+    position: sticky;
+    top:0;
+    z-index: 2;
+    display:flex;
+    justify-content:center;
 }
 #intro{
     background-color: green;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center
 }
 .main-section-content,h2{
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px;
+    font: size 24px;
+    text-align:center;
+    margin-bottom: 50px;
 }
 #bestsellers,footer{
     background-color: red;
@@ -105,5 +120,8 @@ header h1{
 <ol>
     <li><b>harry potter</b><em>by jk rowlins</em></li>
 </ol>
+<footer>
+    <p><span>contact us; ms caroline</span></p>
+</footer>
     <body>
 </html>
